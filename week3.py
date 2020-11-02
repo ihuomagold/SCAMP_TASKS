@@ -15,7 +15,7 @@ c.execute("""CREATE TABLE students (
     )""")
 
 # To drop(delete a table)
-c.execute("""DROP TABLE students""")
+# c.execute("""DROP TABLE students""")
 
 # Inserting a single value
 c.execute("INSERT INTO students VALUES ('Angel', 'Afube', 20151010693 )")
